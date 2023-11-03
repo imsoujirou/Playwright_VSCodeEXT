@@ -34,4 +34,5 @@ test('Login Successful', async ({page}) => {
     await page.locator('#username').type('rahulshetty');
     await page.locator("[type='password']").type('learning');
     await page.locator('Input#signInBtn').click();
+    //
 })
